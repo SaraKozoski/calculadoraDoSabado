@@ -52,13 +52,18 @@ selectedLanguage.addEventListener("change", function () {
         btDiv.value = "Divisão";
     } else if (this.value == "en") {
         btSoma.value = "Sum";
-        btSub.value = "subtraction";
-        btMulti.value = "multiplication";
-        btDiv.value = "division";
+        btSub.value = "Subtraction";
+        btMulti.value = "Multiplication";
+        btDiv.value = "Division";
     } else if (this.value == "es") {
         btSoma.value = "Suma";
         btSub.value = "sustracción";
         btMulti.value = "multiplicación";
         btDiv.value = "división";
+    }else if(this.value == "fr"){
+        btSoma.value = "somme";
+        btSub.value = "soustraction";
+        btMulti.value = "multiplication";
+        btDiv.value = "division";
     }
 })
